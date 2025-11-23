@@ -1,0 +1,45 @@
+$primary: #005A9C;
+$primary-dark: #014474;
+$secondary: #F0F4F8;
+$accent: #1DE9B6;
+$background-light: #ffffff;
+$background-dark: #101922;
+
+.doctors-main-container{
+ min-width: 100dvw;
+ background-color: $secondary;
+
+ min-height: 90dvh;
+ padding-bottom: 5rem !important;
+ 
+ 
+
+
+ .section{
+    margin: auto;
+    min-width: 100dvw;
+    
+   
+    .cards-container{
+        width: 90%;
+        // margin: auto;
+        
+        .doctor-con{
+            .doctor1{
+                // background-color: red;
+                background-image: url("/images/ourdoctor1.jpg");
+            }
+            .doctor2{
+                background-image: url("/images/ourdoctor2.jpg");
+            }
+            .doctor3{
+                background-image: url("/images/ourdoctor3.png");
+            }
+        }
+    }
+ }
+
+}
+// style={{'background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwilns0DSIaTTVpRA2kl9oBmOtBX05D28J_hbEPyRBSL4SqUzuCL-z9z4dMrFF37jerkBDb3V5RRweuRIi7c7v8P3D4-z4V7h74WPTMm-sZtUAQ4AbWTaCgOaQ3cN-SD95ElTHItRvmoKAc7ET0oJ3ftvEOGt933mYDYs1GIuKB60eteMVQ1VpQ5W4eXLKi7Azhy_Nqeolp3BvI_O4jkrwUSZnRc3e7admlQnrIqQu0na7ivouaGnqH6rxnijLFS5uYiBLaXd_Acc");'}}
+// style={'background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC7FjQ-PcvXdsjjrgyk73dnCHHxUwTPgr1fCVHaXzY3nvrjK9tm_sNqfLnOll2rZej-e68bvrkYyOvPfUQlqxh-Ihr9EvbgajLsbS9L7snrz6mkfo5WBHq8DuEEMQnRqusFqnUu4eVH68fWOAa0G1JwV0z4PYub33oghM6OV-duoBwCcrlTvaMtNf7KLEGnUyAIwvtiw3VV02ZeLSzldtK29K5ozfCJRx4Hrv6inko_1K3GNph0JBOLeSU7ctNl_mmsQdUXM2DVQ-g");'}
+// style={'background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLPoBUcKdUiU90v1YYYK5dAngAOn_5g6GsxnRUlWPCqo7KqYdSrkV0DWxRk65Lr7gKwYAc6djqPZ09mLH8yhfzE3AyaMsLdnrav3E49P905sb5UJCTE78ugtzw72n7pOvzHtySu-tj1g7byChSsFNbkXUbjXfsDg7cmvsMMZaTZaOw0O5xQ4GzNCcZwFthbeecBRYf-txAaM0StwdeG9fMMiLMAWSBbJ2IV5YYVwDjMng3ph2YuTIqTHBkWjEhfHR2rNWjBJAPzng");'}

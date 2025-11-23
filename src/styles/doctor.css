@@ -1,0 +1,22 @@
+.doctors-main-container {
+  min-width: 100dvw;
+  background-color: #F0F4F8;
+  min-height: 90dvh;
+  padding-bottom: 5rem !important;
+}
+.doctors-main-container .section {
+  margin: auto;
+  min-width: 100dvw;
+}
+.doctors-main-container .section .cards-container {
+  width: 90%;
+}
+.doctors-main-container .section .cards-container .doctor-con .doctor1 {
+  background-image: url("/images/ourdoctor1.jpg");
+}
+.doctors-main-container .section .cards-container .doctor-con .doctor2 {
+  background-image: url("/images/ourdoctor2.jpg");
+}
+.doctors-main-container .section .cards-container .doctor-con .doctor3 {
+  background-image: url("/images/ourdoctor3.png");
+}/*# sourceMappingURL=doctor.css.map */

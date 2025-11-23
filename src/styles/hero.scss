@@ -10,17 +10,24 @@ $background-dark: #101922;
 section{
 
     .inner-container{
-        height: 90dvw !important;
+        height: auto;
         margin: 0;
         top: 0;
         margin-top: -5%;
         gap: 1;
        
 
+        .swiper{
+            margin: 0;
+            
+            max-height: 80dvh;
+            margin-bottom: -5rem;
+        }
+       
+
         .background-container{
             // background-image: linear-gradient(to right, black, gray), !important;
             .btn-container{
-                
                 .btn1{
                     cursor: pointer;
                     z-index: 1001;

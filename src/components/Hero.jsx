@@ -22,7 +22,7 @@ export default function Hero() {
               }}
               loop={true}               // ← infinite loop
               pagination={{ clickable: true }} // optional dots
-              className="h-screen w-full"
+              className="h-screen w-full swipper"
             >
               <SwiperSlide>
                 <div style={{backgroundImage: "url(/images/doctor1.JPG)"}} className="background-container min-h-[520px] flex flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-6 pb-12 sm:px-12" data-alt="A smiling, professional doctor in a modern hospital setting" >

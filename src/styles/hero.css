@@ -1,9 +1,14 @@
 section .inner-container {
-  height: 90dvw !important;
+  height: auto;
   margin: 0;
   top: 0;
   margin-top: -5%;
   gap: 1;
+}
+section .inner-container .swiper {
+  margin: 0;
+  max-height: 80dvh;
+  margin-bottom: -5rem;
 }
 section .inner-container .background-container .btn-container .btn1 {
   cursor: pointer;
