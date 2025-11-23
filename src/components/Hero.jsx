@@ -1,27 +1,30 @@
-
+import "../styles/hero.css"
 
 export default function Hero() {
   return (
-    <div className="bg-white py-20 px-6 lg:px-24 flex flex-col lg:flex-row items-center">
-      <section className="pt-32 pb-20 px-6 lg:px-24 flex flex-col lg:flex-row items-center">
-      <div className="flex-1">
-      <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight">
-      Quality Healthcare You Can Trust
-      </h1>
-      <p className="mt-4 text-slate-600 text-lg">
-      Providing professional and compassionate medical services for you and your family.
-      </p>
-      <div className="mt-6 flex gap-4">
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow">Book Appointment</button>
-      <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg">Find a Doctor</button>
-      </div>
-      </div>
-
-
-      <div className="flex-1 mt-10 lg:mt-0">
-      <img src="/images/doctor.jpeg" alt="Doctor" className="w-full rounded-xl shadow-lg" />
-      </div>
-      </section>
+    <div>
+        <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
+          <div className="@container inner-container">
+          <div className="background-container min-h-[520px] flex flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-6 pb-12 sm:px-12" data-alt="A smiling, professional doctor in a modern hospital setting" >
+          <div className="flex flex-col gap-4 text-left max-w-2xl">
+          <h1 className="text-white text-4xl font-black leading-tight tracking-tighter sm:text-6xl">
+            Quality healthcare you can trust
+          </h1>
+          <h2 className="text-white text-base font-normal leading-normal sm:text-lg ">
+            Providing compassionate, comprehensive, and advanced medical care to our community.
+          </h2>
+          </div>
+          <div className=" btn-container flex flex-wrap gap-4 mt-4">
+          <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
+          <span className="truncate">Book an Appointment</span>
+          </button>
+          <button className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+          <span className="truncate">Find a Doctor</span>
+          </button>
+          </div>
+          </div>
+          </div>
+        </section>
     </div>
   );
 }

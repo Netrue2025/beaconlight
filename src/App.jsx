@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="font-sans bg-slate-50">
+    <div className="layout-container flex h-full grow flex-col">
       <Navbar />
       <Hero />
       <Services />

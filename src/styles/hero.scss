@@ -1,0 +1,31 @@
+
+$primary: #005A9C;
+$primary-dark: #014474;
+$secondary: #F0F4F8;
+$accent: #1DE9B6;
+$background-light: #ffffff;
+$background-dark: #101922;
+        
+
+section{
+    .inner-container{
+        .background-container{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("/images/doctors.jpeg");
+            .btn-container{
+                .btn1{
+                    background-color: $primary;
+                }
+                .btn1:hover{
+                    background-color: $primary-dark;
+                }
+                .btn2{
+                    background-color: $background-light;
+                }
+                .btn2:hover{
+                    background-color: $secondary;
+                }
+            }
+        }
+
+    }
+}

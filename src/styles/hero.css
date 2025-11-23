@@ -1,0 +1,15 @@
+section .inner-container .background-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("/images/doctors.jpeg");
+}
+section .inner-container .background-container .btn-container .btn1 {
+  background-color: #005A9C;
+}
+section .inner-container .background-container .btn-container .btn1:hover {
+  background-color: #014474;
+}
+section .inner-container .background-container .btn-container .btn2 {
+  background-color: #ffffff;
+}
+section .inner-container .background-container .btn-container .btn2:hover {
+  background-color: #F0F4F8;
+}/*# sourceMappingURL=hero.css.map */
