@@ -1,13 +1,20 @@
-section .inner-container .background-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("/images/doctors.jpeg");
+section .inner-container {
+  height: 90dvw !important;
+  margin: 0;
+  top: 0;
+  margin-top: -5%;
+  gap: 1;
 }
 section .inner-container .background-container .btn-container .btn1 {
+  cursor: pointer;
+  z-index: 1001;
   background-color: #005A9C;
 }
 section .inner-container .background-container .btn-container .btn1:hover {
   background-color: #014474;
 }
 section .inner-container .background-container .btn-container .btn2 {
+  z-index: 1001;
   background-color: #ffffff;
 }
 section .inner-container .background-container .btn-container .btn2:hover {

@@ -8,17 +8,29 @@ $background-dark: #101922;
         
 
 section{
+
     .inner-container{
+        height: 90dvw !important;
+        margin: 0;
+        top: 0;
+        margin-top: -5%;
+        gap: 1;
+       
+
         .background-container{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("/images/doctors.jpeg");
+            // background-image: linear-gradient(to right, black, gray), !important;
             .btn-container{
+                
                 .btn1{
+                    cursor: pointer;
+                    z-index: 1001;
                     background-color: $primary;
                 }
                 .btn1:hover{
                     background-color: $primary-dark;
                 }
                 .btn2{
+                    z-index: 1001;
                     background-color: $background-light;
                 }
                 .btn2:hover{
