@@ -1,0 +1,22 @@
+$primary: #005A9C;
+$primary-dark: #014474;
+$secondary: #F0F4F8;
+$accent: #1DE9B6;
+$background-light: #ffffff;
+$background-dark: #101922;
+
+.appointment-section {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+
+    .inner-cont {
+        max-width: 90%;
+        text-align: center;
+
+        .btn1 {
+            background-color: $primary;
+        }
+    }
+}

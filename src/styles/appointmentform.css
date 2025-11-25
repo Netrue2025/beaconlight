@@ -1,0 +1,13 @@
+.appointment-section {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  box-sizing: border-box;
+}
+.appointment-section .inner-cont {
+  max-width: 90%;
+  text-align: center;
+}
+.appointment-section .inner-cont .btn1 {
+  background-color: #005A9C;
+}/*# sourceMappingURL=appointmentform.css.map */
