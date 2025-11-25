@@ -1,0 +1,16 @@
+.main-container {
+  background-color: #F0F4F8;
+  margin-top: 5.5rem;
+}
+.main-container .second-level-con .cards .card {
+  background-color: white;
+}
+.main-container .second-level-con .cards .card .span {
+  background-color: #F0F4F8;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.main-container .second-level-con .cards .card .span img {
+  height: 2rem;
+  width: 2rem;
+}/*# sourceMappingURL=services.css.map */

@@ -8,15 +8,21 @@
   margin: auto;
   min-width: 100dvw;
 }
-.doctors-main-container .section .cards-container {
+.doctors-main-container .section .section2 .cards-container {
   width: 90%;
 }
-.doctors-main-container .section .cards-container .doctor-con .doctor1 {
+.doctors-main-container .section .section2 .cards-container .doctor-con .downline1 .department {
+  color: #005A9C;
+}
+.doctors-main-container .section .section2 .cards-container .doctor-con .downline1 .downline5 {
+  background-color: #005A9C;
+}
+.doctors-main-container .section .section2 .cards-container .doctor1 {
   background-image: url("/images/ourdoctor1.jpg");
 }
-.doctors-main-container .section .cards-container .doctor-con .doctor2 {
+.doctors-main-container .section .section2 .cards-container .doctor2 {
   background-image: url("/images/ourdoctor2.jpg");
 }
-.doctors-main-container .section .cards-container .doctor-con .doctor3 {
+.doctors-main-container .section .section2 .cards-container .doctor3 {
   background-image: url("/images/ourdoctor3.png");
 }/*# sourceMappingURL=doctor.css.map */
