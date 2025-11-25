@@ -1,0 +1,31 @@
+$primary: #005A9C;
+$primary-dark: #014474;
+$primary-light: #e0e9f0;
+$secondary: #F0F4F8;
+$accent: #1DE9B6;
+$background-light: #ffffff;
+$background-dark: #101922;
+
+.main-container{
+    background-color: $secondary;
+    margin-top: 5.5rem;
+    .second-level-con{
+        .cards{
+            
+            .card{
+                background-color: white;
+               .span{
+                 background-color: $secondary;
+                 padding: 1rem;
+                 border-radius: 50%;
+                 img{
+                    height: 2rem;
+                    width: 2rem; 
+                }
+
+               }
+               
+            }
+        }
+    }
+}

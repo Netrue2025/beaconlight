@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Doctors />
       <AppointmentForm />
+      <Doctors />
       <Footer />
     </div>
   )
