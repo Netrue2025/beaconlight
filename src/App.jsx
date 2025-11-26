@@ -13,9 +13,9 @@ function App() {
     <div className="layout-container flex h-full grow flex-col">
       <Navbar />
       <Hero />
-      <Services />
+      <Doctors/>
       <AppointmentForm />
-      <Doctors />
+      <Services />
       <Footer />
     </div>
   )
