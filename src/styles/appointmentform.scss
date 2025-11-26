@@ -18,5 +18,8 @@ $background-dark: #101922;
         .btn1 {
             background-color: $primary;
         }
+        .btn1:hover {
+            background-color: $primary-dark;
+        }
     }
 }

@@ -10,4 +10,7 @@
 }
 .appointment-section .inner-cont .btn1 {
   background-color: #005A9C;
+}
+.appointment-section .inner-cont .btn1:hover {
+  background-color: #014474;
 }/*# sourceMappingURL=appointmentform.css.map */
