@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          local-dir: build/
+          local-dir: build /
           server-dir: ${{ secrets.FTP_DIR }}
           # Optional: speeds up deployment
           dangerous-clean-slate: false
