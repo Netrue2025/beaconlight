@@ -1,0 +1,32 @@
+.mobile-inner-content{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   z-index: 1001;
+   margin: auto;
+   width: 80dvw;
+   transition: all;
+   background-color: #ffffff;
+   height: auto;
+   padding-bottom: 2rem;
+   border-right: 1px solid cyan;
+   border-bottom: 1px solid rgb(12, 243, 243);
+
+   nav{
+    display: flex;
+    flex-direction: column;
+    // position: absolute;
+    // width: 80%;
+    margin-top: 1rem;
+
+    a{
+        // border-bottom: 1px solid rgb(194, 193, 193);
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+    a:hover{
+        color: rgb(3, 3, 147);
+    }
+   }
+}

@@ -5,7 +5,7 @@ export default function Services() {
 
     return (
         <div>
-            <section class="main-container w-full bg-secondary dark:bg-background-dark py-16 sm:py-24">
+            <section id="services" class="main-container w-full bg-secondary dark:bg-background-dark py-16 sm:py-24">
                 <div class="second-level-con w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center mb-12">
                         <h2 class="text-gray-900 dark:text-white text-3xl font-bold leading-tight tracking-tighter sm:text-4xl">Our Services</h2>

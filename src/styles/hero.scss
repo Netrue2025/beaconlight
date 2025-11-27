@@ -8,6 +8,7 @@ $background-dark: #101922;
         
 
 section{
+    width: 100dvw;
 
     .inner-container{
         height: auto;
@@ -15,6 +16,7 @@ section{
         top: 0;
         margin-top: -5%;
         gap: 1;
+        
        
 
         .swiper{
@@ -22,7 +24,10 @@ section{
             
             max-height: 80dvh;
             margin-bottom: -5rem;
+
+            
         }
+
        
 
         .background-container{
@@ -47,4 +52,11 @@ section{
         }
 
     }
+}
+
+@media screen and (max-width: 765px) {
+    section{
+        
+    }
+    
 }

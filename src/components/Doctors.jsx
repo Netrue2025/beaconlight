@@ -4,7 +4,7 @@ export default function Doctors() {
 
 
     return (
-        <div className="doctors-main-container">
+        <div id="find-doctor" className="doctors-main-container">
             <section className="section w-full bg-secondary dark:bg-background-dark py-16 sm:py-24">
                 <div className="section2 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">

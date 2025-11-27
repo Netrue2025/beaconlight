@@ -1,13 +1,48 @@
 div{
+    
     .sticky{
-        
+        position: sticky !important;
+        // background-color: red;
+        top: 0;
+
         .w-full{
             .inner-content{
             padding-bottom: 2rem;
+
+            .mobile-menu{
+                height: 2rem;
+                width: 2rem;
+                margin: auto;
+                display: none;
+            }
          
             }
             
             
         }
+    }
+
+    @media screen and (max-width: 765px) {
+        .sticky{
+            position: sticky !important;
+            top: 0;
+            
+            .w-full{
+                .inner-content{
+               
+
+                .mobile-menu{
+                    height: 2rem;
+                    width: 2rem;
+                    margin: auto;
+                    display: flex;
+                }
+            
+                }
+                
+                
+            }
+        }
+            
     }
 }

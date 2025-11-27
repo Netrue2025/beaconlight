@@ -1,3 +1,6 @@
+section {
+  width: 100dvw;
+}
 section .inner-container {
   height: auto;
   margin: 0;

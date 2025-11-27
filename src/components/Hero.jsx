@@ -25,7 +25,7 @@ export default function Hero() {
               pagination={{ clickable: true }} // optional dots
               className="h-screen w-full swipper"
             >
-              <SwiperSlide>
+              <SwiperSlide className="swiperslider">
                 <div style={{backgroundImage: "url(/images/doctor1.JPG)"}} className="background-container min-h-[520px] flex flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-6 pb-12 sm:px-12" data-alt="A smiling, professional doctor in a modern hospital setting" >
                   <div className="flex flex-col gap-4 text-left max-w-2xl">
                   <h1 className="text-white text-4xl font-black leading-tight tracking-tighter sm:text-6xl">
