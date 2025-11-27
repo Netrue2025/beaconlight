@@ -18,6 +18,12 @@
   margin: auto;
   position: relative;
 }
+.doctors-main-container .section .section2 .cards-container #doctor-name {
+  color: #014474;
+}
+.doctors-main-container .section .section2 .cards-container #doctor-department {
+  color: #005A9C;
+}
 .doctors-main-container .section .section2 .cards-container .doctor-con {
   margin: auto;
   width: 90%;

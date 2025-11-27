@@ -30,12 +30,20 @@ $background-dark: #101922;
                 
                 position: relative;
                 
+                #doctor-name{
+                    color: $primary-dark;
+                }
+                #doctor-department{
+                    color: $primary;
+                }
             
                 .doctor-con{
                     margin: auto;
                     width: 90%;
                     margin-left: 0;
                     background-color: #ffffff;
+
+                    
 
                     .downline1{
                         .department{

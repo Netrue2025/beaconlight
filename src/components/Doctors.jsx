@@ -15,8 +15,8 @@ export default function Doctors() {
                         <div className="doctor-con flex flex-col bg-background-light dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
                         <div className="doctor1 w-full bg-center bg-no-repeat aspect-[4/3] bg-cover" data-alt="Professional headshot of Dr. Emily Carter" ></div>
                             <div className="downline1 p-6 flex-1 flex flex-col">
-                                <p className="text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Emily Carter, MD</p>
-                                <p className="department text-primary text-sm font-medium leading-normal mb-4">Cardiology</p>
+                                <p id="doctor-name" className="text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Emily Carter, MD</p>
+                                <p id="doctor-department" className="department text-primary text-sm font-medium leading-normal mb-4">Cardiology</p>
                                 <div className="downline2 mt-auto flex items-center justify-between gap-4">
                                     <button className="downline5 flex flex-1 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal hover:bg-opacity-90 transition-colors">
                                         <span className="span truncate">View Doctor</span>
@@ -33,8 +33,8 @@ export default function Doctors() {
                         <div className="doctor-con flex flex-col bg-background-light dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
                         <div className="doctor2 w-full bg-center bg-no-repeat aspect-[4/3] bg-cover" data-alt="Professional headshot of Dr. Ben Adams" ></div>
                         <div className="downline1 p-6 flex-1 flex flex-col">
-                        <p className="downline2 text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Ben Adams, DO</p>
-                        <p className="downline3 text-primary text-sm font-medium leading-normal mb-4">Pediatrics</p>
+                        <p id="doctor-name" className="downline2 text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Ben Adams, DO</p>
+                        <p id="doctor-department" className="downline3 text-primary text-sm font-medium leading-normal mb-4">Pediatrics</p>
                         <div className="downline4 mt-auto flex items-center justify-between gap-4">
                         <button className="downline5 flex flex-1 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal hover:bg-opacity-90 transition-colors">
                         <span className="truncate">View Doctor</span>
@@ -52,8 +52,8 @@ export default function Doctors() {
                             <div className="doctor3 w-full bg-center bg-no-repeat aspect-[4/3] bg-cover" data-alt="Professional headshot of Dr. Chloe Davis" ></div>
                            
                             <div className="downline1 p-6 flex-1 flex flex-col">
-                            <p className="downline2 text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Chloe Davis, PhD</p>
-                            <p className="downline3 text-primary text-sm font-medium leading-normal mb-4">Neurology</p>
+                            <p id="doctor-name" className="downline2 text-gray-800 dark:text-white text-xl font-bold leading-normal">Dr. Chloe Davis, PhD</p>
+                            <p id="doctor-department" className="downline3 text-primary text-sm font-medium leading-normal mb-4">Neurology</p>
                             <div className="downline4 mt-auto flex items-center justify-between gap-4">
                             <button className="downline5 flex flex-1 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal hover:bg-opacity-90 transition-colors">
                             <span className="truncate">View Doctor</span>

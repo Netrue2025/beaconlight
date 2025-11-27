@@ -10,7 +10,8 @@
    height: auto;
    padding-bottom: 2rem;
    border-right: 1px solid rgb(244, 244, 244);
-   border-bottom: 1px solid rgb(12, 243, 243);
+   border-bottom: 1px solid rgb(255, 255, 255);
+   border-bottom-right-radius: 0.8rem;
 
    nav{
     display: flex;
@@ -24,6 +25,7 @@
         width: 100%;
         text-align: center;
         cursor: pointer;
+        color: rgb(65, 63, 63);
     }
     a:hover{
         color: rgb(3, 3, 147);

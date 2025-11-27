@@ -22,4 +22,8 @@ div .sticky .w-full .inner-content .mobile-menu {
     margin: auto;
     display: flex;
   }
+  div .sticky .w-full .inner-content img {
+    height: auto;
+    margin-right: -1.5rem;
+  }
 }/*# sourceMappingURL=topnavbar.css.map */

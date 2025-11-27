@@ -10,10 +10,9 @@ div{
         .w-full{
             .inner-content{
             padding-bottom: 2rem;
+           
             
-            .header-con{
-               
-            }
+        
            
             .mobile-menu{
                 height: 2rem;
@@ -35,14 +34,20 @@ div{
             
             .w-full{
                 .inner-content{
+                    
                
 
-                .mobile-menu{
-                    height: 2rem;
-                    width: 2rem;
-                    margin: auto;
-                    display: flex;
-                }
+                    .mobile-menu{
+                    
+                        height: 2rem;
+                        width: 2rem;
+                        margin: auto;
+                        display: flex;
+                    }
+                    img{
+                        height: auto;
+                        margin-right: -1.5rem;
+                    }
             
                 }
                 
