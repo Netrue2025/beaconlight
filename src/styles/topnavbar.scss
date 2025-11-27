@@ -1,5 +1,7 @@
+
+
 div{
-    
+
     .sticky{
         position: sticky !important;
         // background-color: red;
@@ -8,7 +10,11 @@ div{
         .w-full{
             .inner-content{
             padding-bottom: 2rem;
-
+            
+            .header-con{
+               
+            }
+           
             .mobile-menu{
                 height: 2rem;
                 width: 2rem;
