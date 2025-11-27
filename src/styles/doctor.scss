@@ -6,7 +6,7 @@ $background-light: #ffffff;
 $background-dark: #101922;
 
 .doctors-main-container{
- min-width: 100dvw;
+ width: 100dvw;
  background-color: $secondary;
  min-height: 90dvh;
  padding-bottom: 5rem !important;
@@ -16,14 +16,27 @@ $background-dark: #101922;
 
     .section{
         margin: auto;
-        min-width: 100dvw;
+        width: 100dvw;
 
         .section2{
+            min-width: 100dvw;
+            
+
             .cards-container{
-                width: 90%;
-                // margin: auto;
+                width: 90dvw;
+                left: 0;
+                margin-left: 0;
+                margin: auto;
+                
+                position: relative;
+                
             
                 .doctor-con{
+                    margin: auto;
+                    width: 90%;
+                    margin-left: 0;
+                    background-color: #ffffff;
+
                     .downline1{
                         .department{
                             color: $primary;
@@ -33,6 +46,12 @@ $background-dark: #101922;
                         }
                     }
                 
+                    
+                }
+                @media screen and (max-width:765px) {
+                     .doctor-con{
+                        width: 90dvw;
+                     }
                     
                 }
                 .doctor1{

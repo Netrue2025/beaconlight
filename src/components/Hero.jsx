@@ -66,7 +66,7 @@ export default function Hero() {
                     </button>
                   </Link>
                   <button onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })} className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
-                  <span className="truncate">Find a Doctor</span>
+                  <span id="hero-find-doctor" className="truncate">Find a Doctor</span>
                   </button>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ export default function Hero() {
                     </button>
                   </Link>
                   <button onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })} className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
-                  <span className="truncate">Find a Doctor</span>
+                  <span id="hero-find-doctor" className="truncate">Find a Doctor</span>
                   </button>
                   </div>
                 </div>

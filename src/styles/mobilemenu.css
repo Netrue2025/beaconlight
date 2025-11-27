@@ -4,12 +4,12 @@
   position: absolute;
   z-index: 1001;
   margin: auto;
-  width: 80dvw;
+  width: 50dvw;
   transition: all;
   background-color: #ffffff;
   height: auto;
   padding-bottom: 2rem;
-  border-right: 1px solid cyan;
+  border-right: 1px solid rgb(244, 244, 244);
   border-bottom: 1px solid rgb(12, 243, 243);
 }
 .mobile-inner-content nav {
