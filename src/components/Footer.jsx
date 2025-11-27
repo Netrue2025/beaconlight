@@ -1,4 +1,5 @@
 import "../styles/footer.css"
+import { Link } from "react-router-dom";
 
 export function Footer() {
     return (
@@ -7,21 +8,24 @@ export function Footer() {
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="col-span-1 md:col-span-2">
             <h3 class="text-lg font-bold text-white mb-4">Beaconlight Hospital</h3>
-            <p class="mb-2">123 Health St, Wellness City, 12345</p>
+            <p class="mb-2">45, Are Street, Old Ife Road, OYO State, Nigeria</p>
             <p class="mb-2">
-            <a class="hover:text-white transition-colors" href="tel:123-456-7890">Phone: (123) 456-7890</a>
+            <a class="hover:text-white transition-colors" href="tel:123-456-7890">Phone: (+234) 8133075822</a>
             </p>
             <p>
-            <a class="hover:text-white transition-colors" href="mailto:contact@beaconlight.org">Email: contact@beaconlight.org</a>
+            <a class="hover:text-white transition-colors" href="mailto:contact@beaconlight.org">Email: info@beaconlighthospital.com</a>
             </p>
             </div>
             <div>
             <h3 class="text-md font-semibold text-white mb-4">Quick Links</h3>
             <ul class="space-y-2">
             <li><a class="hover:text-white transition-colors" href="#">Home</a></li>
-            <li><a class="hover:text-white transition-colors" href="#">Services</a></li>
-            <li><a class="hover:text-white transition-colors" href="#">Find a Doctor</a></li>
-            <li><a class="hover:text-white transition-colors" href="#">Patient Portal</a></li>
+            <li><a class="hover:text-white transition-colors" onClick={() => document.getElementById("services").scrollIntoView({ behavior: "smooth" })}>Services</a></li>
+            <li><a class="hover:text-white transition-colors" onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })}>Find a Doctor</a></li>
+            <Link to="/Appointment">
+             <li><a class="hover:text-white transition-colors">Book Appointment</a></li>
+            </Link>
+           
             </ul>
             </div>
             <div>
@@ -40,6 +44,7 @@ export function Footer() {
             </div>
             </div>
             </div>
+            <div id="scrolltop" onClick={() => document.getElementById("header").scrollIntoView({ behavior: "smooth" })}><img src="/images/arrow.png" alt="Arrow up" /></div>
             <div class="mt-8 border-t border-gray-700 pt-6 text-center text-sm">
             <p>© 2024 Beaconlight Hospital. All Rights Reserved.</p>
             </div>

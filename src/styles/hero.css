@@ -8,6 +8,9 @@ section .inner-container {
   margin-top: -5%;
   gap: 1;
 }
+section .inner-container #hero-find-doctor {
+  color: #014474;
+}
 section .inner-container .swiper {
   margin: 0;
   max-height: 80dvh;

@@ -36,15 +36,19 @@ export default function Hero() {
                   </h2>
                   </div>
                   <div className=" btn-container flex flex-wrap gap-4 mt-4">
-                  <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
-                  <Link to={"/appointment"}><span className="truncate" >Book an Appointment</span></Link>
-                  </button>
-                  <button className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
-                  <span className="truncate">Find a Doctor</span>
+                  <Link to={"/appointment"}>
+                    <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
+                    <span className="truncate" >Book an Appointment</span>
+                    </button>
+                  </Link>
+
+                  <button onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })} className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                  <span id="hero-find-doctor" className="truncate" >Find a Doctor</span>
                   </button>
                   </div>
                 </div>
               </SwiperSlide>
+
               <SwiperSlide>
                 <div style={{backgroundImage: "url(/images/doctors.JPG)"}} className="background-container min-h-[520px] flex flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-6 pb-12 sm:px-12" data-alt="A smiling, professional doctor in a modern hospital setting" >
                   <div className="flex flex-col gap-4 text-left max-w-2xl">
@@ -56,10 +60,12 @@ export default function Hero() {
                   </h2>
                   </div>
                   <div className=" btn-container flex flex-wrap gap-4 mt-4">
-                  <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
-                  <Link to={"/appointment"}><span className="truncate" >Book an Appointment</span></Link>
-                  </button>
-                  <button className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                  <Link to={"/appointment"}>
+                    <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
+                    <span className="truncate" >Book an Appointment</span>
+                    </button>
+                  </Link>
+                  <button onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })} className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                   <span className="truncate">Find a Doctor</span>
                   </button>
                   </div>
@@ -77,10 +83,12 @@ export default function Hero() {
                   </h2>
                   </div>
                   <div className=" btn-container flex flex-wrap gap-4 mt-4">
-                  <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
-                  <Link to={"/appointment"}><span className="truncate" >Book an Appointment</span></Link>
-                  </button>
-                  <button className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                  <Link to={"/appointment"}>
+                    <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
+                    <span className="truncate" >Book an Appointment</span>
+                    </button>
+                  </Link>
+                  <button onClick={() => document.getElementById("find-doctor").scrollIntoView({ behavior: "smooth" })} className="btn2 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light dark:bg-gray-700 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                   <span className="truncate">Find a Doctor</span>
                   </button>
                   </div>

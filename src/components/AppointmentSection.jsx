@@ -12,7 +12,7 @@ export default function AppointmentSection() {
           Booking an appointment is quick and easy. Let us take care of you.
         </p>
         <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
-          <Link to={"/appointment"}><span className="truncate" >Book an Appointment</span></Link>
+          <Link to={"/Appointment"}><span className="truncate" >Book an Appointment</span></Link>
         </button>
       </div>
     </section>
