@@ -10,9 +10,21 @@ export default function AppointmentForm() {
         <p className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400">
           Booking an appointment is quick and easy. Let us take care of you.
         </p>
-        <button className="btn1 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors">
-          <span className="truncate">Book an Appointment</span>
-        </button>
+
+        <form action="" className="flex flex-col gap-4 mw-[600px] w-[100%]">
+          <input className="border p-3 rounded" placeholder="Full Name" />
+          <input className="border p-3 rounded" placeholder="Phone Number" />
+          <select className="border p-3 rounded">
+            <option>Choose Department</option>
+            <option>Cardiology</option>
+            <option>Pediatrics</option>
+            <option>Diagnostics</option>
+          </select>
+          <input className="border p-3 rounded" type="date" />
+          <button className="bg-blue-600 text-white p-3 rounded-lg">
+            Submit
+          </button>
+        </form>
       </div>
     </section>
   );

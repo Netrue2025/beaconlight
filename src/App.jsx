@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Doctors from "./components/Doctors";
 import AppointmentForm from "./components/AppointmentForm";
 import Footer from "./components/Footer";
+import AppointmentSection from "./components/AppointmentSection";
 
 
 import './App.css'
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Doctors/>
-      <AppointmentForm />
+      <AppointmentSection />
       <Services />
       <Footer />
     </div>
