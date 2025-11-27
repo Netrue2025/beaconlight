@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-#h1{
-  color: red ;
+
+
+.h2{
+    color: #101922;
 }
     

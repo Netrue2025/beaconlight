@@ -8,7 +8,7 @@ export default function Doctors() {
             <section className="section w-full bg-secondary dark:bg-background-dark py-16 sm:py-24">
                 <div className="section2 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-gray-900 dark:text-white text-3xl font-bold leading-tight tracking-tighter sm:text-4xl">Meet Our Expert Medical Team</h2>
+                        <h2 className="h2 text-gray-900 dark:text-white text-3xl font-bold leading-tight tracking-tighter sm:text-4xl">Meet Our Expert Medical Team</h2>
                         <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400">Our dedicated professionals are here to provide you with exceptional care.</p>
                     </div>
                     <div className="cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
